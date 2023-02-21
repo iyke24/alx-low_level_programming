@@ -2,15 +2,17 @@
 #include "main.h"
 
 /*
- * function to print all the alphabet in lowercase
+ * print_alphabet -  function to print all the alphabet in lowercase
  */
 void print_alphabet(void)
+
 {
 	char alph;
 	alph = 'a';
-	while(alph <= 'z')
+	while (alph <= 'z')
 	{
 		putchar(alph);
+		alph++;
 	}
 	putchar('\n');
 }
