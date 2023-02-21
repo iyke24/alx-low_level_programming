@@ -3,8 +3,9 @@
 
 /*
  * print_alphabet -  function to print all the alphabet in lowercase
+ * Return : 0
  */
-void print_alphabet(void) //print all alphabets in lowercase
+void print_alphabet(void)
 
 {
 	char alph;
