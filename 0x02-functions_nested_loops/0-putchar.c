@@ -9,7 +9,7 @@ int main(void)
 {
 	putchar('_');
 	putchar('p');
-        putchar('u');
+	puptchar('u');
 	putchar('t');
 	putchar('c');
 	putchar('h');
