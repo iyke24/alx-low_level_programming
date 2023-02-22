@@ -4,11 +4,11 @@
 
 /**
  * _abs - computer absolute value of integer
- * @int: integer
+ * @n: integer
  * Return: absolute value
  */
 
-int _abs(int)
+int _abs(int n)
 {
-	return (abs(int));
+	return (abs(n));
 }
