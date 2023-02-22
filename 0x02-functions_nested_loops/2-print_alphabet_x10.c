@@ -7,9 +7,7 @@
  */
 void print_alphabet_x10(void)
 {
-	int i;
-
-	i = 1;
+	int i = 1;
 
 	char alph;
 
