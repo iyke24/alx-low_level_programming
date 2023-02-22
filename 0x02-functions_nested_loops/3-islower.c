@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include "main.h"
-
+#include <ctype.h>
 /**
  * _islower - print 1 if lowercase else 0
  * Description: check the case of the parameter
@@ -8,7 +8,7 @@
  */
 int _islower(int c)
 {
-	if(c >= 'a' && c <= 'z')
+	if(islower(c))
 		return (1);
 	else
 		return (0);
