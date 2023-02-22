@@ -9,11 +9,9 @@ void print_alphabet_x10 (void)
 {
 	char alph;
 
-	alph = 'a';
+	alph = 'a'
 
-	int i = 0;
-
-	while( i <= 9 )
+	for(i=0; i<=9; i++)
 	{
 		while(alph <= 'z')
 		{
@@ -21,5 +19,4 @@ void print_alphabet_x10 (void)
 		putchar('\n');
 		alph++;
 	}
-		i++;
 }
