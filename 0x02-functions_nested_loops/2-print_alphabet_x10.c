@@ -9,11 +9,13 @@ void print_alphabet_x10(void)
 {
 	int i;
 
+	i = 1;
+
 	char alph;
 
 	alph = 'a';
 
-	for (i = 1; i <= 10; i++)
+	while (i <= 10 )
 	{
 		while (alph <= 'z')
 		{
@@ -21,5 +23,6 @@ void print_alphabet_x10(void)
 		alph++;
 	}
 		putchar('\n');
+		i++;
 }
 }
