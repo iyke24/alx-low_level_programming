@@ -11,9 +11,8 @@ void print_line(int n)
 
 	for (times = 0; times < n; times++)
 	{
-		if(times <=0)
-
-		else
+		if(times > 0)
+			
 			_putchar('_');
 	}
 
