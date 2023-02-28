@@ -1,4 +1,3 @@
-#include <string.h>
 #include "main.h"
 
 /**
@@ -9,9 +8,13 @@
 
 int _strlen(char *s)
 {
-	char str;
-	int len;
-	str = *s;
-       len = strlen(str);
+	int len = 0;
+
+	while (*s != '\0')
+	{
+		len++;
+		s++;
+	}
+
 	return (len);
 }
