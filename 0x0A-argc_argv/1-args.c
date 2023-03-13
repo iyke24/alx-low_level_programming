@@ -8,7 +8,7 @@
  * Return: 0 on succes
  */
 
-int main(int argc, char *argv[] __attrubute__((unsed)))
+int main(int argc, char *argv[] __attrubute__((unused)))
 {
 	printf("%d\n", argc - 1);
 
