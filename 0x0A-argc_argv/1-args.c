@@ -10,7 +10,8 @@
 
 int main(int argc, char *argv[] _attrubute_((unsed)))
 {
-	printf("%s\n", argc - 1);
+	if(argc > 0)
+		printf("%s\n", argc - 1);
 
 	return (0);
 }
