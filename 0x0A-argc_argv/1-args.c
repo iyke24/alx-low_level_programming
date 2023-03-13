@@ -8,10 +8,9 @@
  * Return: 0 on succes
  */
 
-int main(int argc, char *argv[] _attrubute_((unsed)))
+int main(int argc, char *argv[] __attrubute__((unsed)))
 {
-	if(argc > 0)
-		printf("%s\n", argc - 1);
+	printf("%s\n", argc - 1);
 
 	return (0);
 }
